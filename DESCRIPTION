@@ -1,0 +1,13 @@
+Package: ScrapeCongress
+Type: Package
+Title: Returns Tweets by members of the United States Congress. The package also will save CSV files of these members' tweets.
+Version: 0.2.0
+Authors: Damon C. Roberts and Alexander L. Jensen
+Maintainer: Damon C. Roberts <damonroberts42@gmail.com>
+Description: Users define what session and subset of members of Congress they would like to collect recent tweets from. The package then accesses the Twitter API to pull those tweets. The user is also able to define whether they want each member's tweets to be saved as a .csv file in their working directory.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)

@@ -1,0 +1,748 @@
+###########################
+#### Names and Handles ####
+###########################
+
+#'  Defines list of MC names and their twitter handles
+#' @import utils
+#' @export
+
+############################################
+#### Complete List of Handles and Names ####
+############################################
+last.name <- NA
+handle <- NA
+timelines.session.dictionary <- NA
+timelines.session.dictionary <- list(
+  session = list(
+    "116" = list(
+
+      ########################################
+      #### Last Names and Handles for 116 ####
+      ########################################
+
+      #############
+      #### all ####
+      #############
+      all = list(
+        last.name =
+          c(
+            "Jones", "Bennet", "Blumenthal", "Murphy", "ChrisCoons", "Carper", "BrianSchatz", "Durbin",
+            "Markey", "Cardin", "ChrisVanHollen", "GaryPeters", "Booker", "Menendez", "MartinHeinrich", "TomUdall", "Schumer",
+            "SherrodBrown", "JeffMerkley", "RonWyden", "BobCasey", "Toomey", "JackReed", "Whitehouse", "Leahy", "Sanders", "MarkWarner",
+            "JoeManchin", "DanSullivan", "Shelby", "JohnBoozman", "TomCotton", "CoryGardner", "Rubio", "RickScott", "Isakson",
+            "DavidPerdue", "ChuckGrassley", "MikeCrapo", "Risch", "Braun", "ToddYoung", "JerryMoran", "PatRoberts", "McConnell",
+            "RandPaul", "BillCassidy", "JohnKennedy", "RoyBlunt", "Hawley", "Wicker", "SteveDaines", "Burr", "ThomTillis",
+            "KevinCramer", "JohnHoeven", "Sasse", "RobPortman", "JimInhofe", "Lankford", "LindseyGraham", "TimScott", "Rounds",
+            "JohnThune", "Alexander", "JohnCornyn", "TedCruz", "MikeLee", "Romney", "RonJohnson", "JohnBarrasso", "Enzi",
+            "Sinema", "Feinstein", "KamalaHarris", "MazieHirono", "Duckworth", "Warren", "Stabenow",
+            "AmyKlobuchar", "TinaSmith", "Hassan", "Shaheen", "CortezMasto", "JackyRosen", "Gillibrand", "Cantwell", "Murray",
+            "Baldwin", "LisaMukowski", "McSally", "JoniErnst", "Collins", "HydeSmith", "Fischer", "MarshaBlackburn", "Captio", "OHalleran", "RaulGrijalva", "RubenGallego", "GregStanton", "Garamendi", "Thompson",
+            "McNerney", "Josh Harder", "DeSaulnier", "Swalwell", "JimCosta", "RoKhanna", "JimmyPanetta", "TJCox", "Carabajal",
+            "AdamSchiff", "Cardenas", "BradSherman", "PeteAguilar", "TedLieu", "JimmyGomez", "Ruiz",
+            "GilCisneros", "MarkTakano", "LouCorrea", "Lownethal", "Harley", "MikeLevin", "Hunter", "JuanVargas",
+            "ScottPeters", "JoeNeguse", "JasonCrow", "Perlmutter", "JohnLarson", "JoeCourtney", "Jahimes", "AlLawson",
+            "DarrenSoto", "ValDemings", "CharlieCrist", "TedDeutch", "SanfordBishop", "HankJohnson", "JohnLewis",
+            "LucyMcBath", "DavidScott", "EdCase", "JohnLewis", "LucyMcBath", "DavidScott", "EdCase", "DaveLoebsack",
+            "BobbyRush", "Lipinski", "ChuyGarcia", "MikeQuigley", "Casten", "DannyDavis", "Raja",
+            "Schneider", "BillFoster", "Visclosky", "AndreCarlson", "JohnYarmuth", "Richmond", "Chelliepingree", "Golden",
+            "Dutch", "Sarbanes", "AnthonyBrown", "Hoyer", "DavidTrone", "Cummings", "Raskin", "RichardNeal", "McGovern",
+            "JoeKennedy", "Moulton", "StephenLynch", "Keating", "DanKildee", "AndyLevin", "Cleaver",
+            "BennieGTomphson", "Butterfield", "DavidEPrice", "ChrisPappas", "DonaldNorcross", "AndyKim", "JoshG",
+            "FrankPallone", "Malinowski", "Sires", "BillPascrell", "DonaldPayne", "Sherrill", "BenRayLujan", "Horsford",
+            "Souzzi", "GreggoryMeeks", "GraceMeng", "Jeffires", "JerryNadler", "MaxRose", "Espaillat", "JoseSerrano",
+            "ElliotEngel", "SeanMaloney", "Delgado", "PaulTonko", "Brindisi", "JoeMorelle", "BrianHiggins", "Schrader",
+            "Boyle", "DwightEvans", "Cartwright", "ConorLamb", "MikeDoyle", "DavidCicilline", "JimLangevin",
+            "Cunningham", "Clyburn", "JimCooper", "Cohen", "AlGreen", "Gonzalez", "JoaquinCastro", "Cuellar", "EBJ",
+            "ColinAllred", "Veasey", "Filemon ela", "LloydDoggett", "BenMcAdams", "BobbyScott", "McEachin", "DonBeyer",
+            "GerryConnolly", "PeterWelch", "RickLarsen", "DerekKilmer", "AdamSmith", "DennyHeck", "MarkPocan",
+            "RonKind", "CarolMiller", "DonYoung", "Byrne", "MikeRogers", "RobertAderholt", "MoBrooks",
+            "GaryPalmer", "RickCrawford", "FrenchHill", "SteveWomack", "Westerman", "Gosar",
+            "AndyBiggs", "David", "DLesko", "LaMalfa", "McClintock", "PaulCook", "DevinNunes",
+            "McCarthy", "Calvert", "Tipton", "KenBuck", "DLamborn", "MattGaetz", "NealDunn",
+            "TedYoho", "Rutherford", "MichaelWaltz", "BillPosey", "Webster", "GusBilirakis",
+            "VernBuchanan", "GregSteube", "BrianMast", "Rooney", "MarioDB", "BuddyCarter", "DrewFerguson",
+            "RobWoodall", "AustinScott", "DougCollins", "Hice", "Laudermilk", "RickAllen", "TomGraves", "RussFulcher",
+            "MikeSimpson", "Bost", "RodneyDavis", "Shimkus", "Kinzinger", "LaHood", "JimBanks", "JimBaird",
+            "GregPence", "LarryBucshon", "Trey", "RonEstes", "Guthrie", "ThomasMassie", "HalRogers",
+            "AndyBarr", "Scalise", "ClayHiggins", "MikeJohnson", "Abraham", "GarretGraves", "AndyHarris",
+            "JackBergman", "Huizenga", "JustinAmash", "Moolenaar", "FredUpton", "Walberg", "Slotkin", "PaulMitchell",
+            "Hagedorn", "TomEmmer", "PeteStauber", "Blaine", "SamGraves", "Long", "JasonSmith", "TrentKelly",
+            "MichaelGuest", "Palazzo", "Holding", "WalterJones", "MarkWalker", "DavidRouzer", "RichHudson", "PatricMcHenry",
+            "MarkMeadows", "TedBudd", "JeffFortenberry", "DonBacon", "AdrianSmith", "JYD", "ChrisSmith", "MarkAmodei",
+            "LeeZeldin", "PeteKing", "TomReed", "JohnKatko", "ChrisCollins", "SteveChabot", "BradWenstrup", "Jim ordan",
+            "BobLatta", "BillJohnson", "BobGibbs", "WarrenDavidson", "MikeTurner", "Balderson", "DaveJoyce", "SteveStivers",
+            "AGonzalez", "KevinHern", "Mullin", "FrankLucas", "TomCole", "BrianFitz", "Meuser", "ScottPerry", "Smucker",
+            "JohnJoyce", "GReschenthaler", "GT", "MikeKelly", "JoeWilson", "JeffDuncan", "Timmons", "Ralph Norman",
+            "TomRice", "DustyJohnson", "PhilRoe", "TimBurchett", "Chuck", "DesJarlais", "JohnRose", "MarkGreen", "DavidKustoff",
+            "LouisGohmert", "DanCrenshaw", "VanTaylor", "Ratcliffe", "LanceGooden", "RonWright", "KevinBrady",
+            "McCaul", "Conaway", "KayGranger", "Mac", "Randy", "BillFlores", "Arrington", "ChipRoy", "PeteOlson", "Hurd",
+            "KenMarchant", "RWilliams", "MichaelCBurgess", "Cloud", "JudgeCarter", "BrianBabin", "RobBishop", "ChrisStewart",
+            "JohnCurtis", "RobWittman", "Riggleman", "BenCline", "MGriffith", "Newhouse", "BryanSteil", "Jim", "Grothman",
+            "SeanDuffy", "Gallagher", "McKinley", "AlexMooney", "TerriSewell", "Kirkpatrick", "Matsui", "Bera", "Pelosi", "Lee", "Speier", "AnnaEshoo", "ZoeLofgren", "KatieHill",
+            "Brownley", "JudyChu", "GraceNapolitano", "NormaJTorres", "KarenBass", "LindaSanchez", "RoybalAllard", "MaxineWaters",
+            "Barragan", "KatiePorter", "SusanDavis", "DianaDegette", "RosaDelauro", "JahanaHayes", "LBR", "EleanorNorton",
+            "StephMurphy", "KCastor", "Hastings", "LoisHankel", "DWS", "WIlson", "DMP", "Shalala", "Tulsi", "Rinkenauer",
+            "CindyAxne", "RobinKelly", "Janschakowsky", "Underwood", "Cheri", "Davids", "LoriTrahan", "KClark",
+            "Pressley", "HaleyStevens", "DebDingell", "Rashida", "Lawrence", "AngieCraig", "McCollum", "Ilhan",
+            "LacyClay", "Adams", "AnnieKuster", "Bonnie", "Haaland", "TorresSmall", "Dinatitus", "SusieLee",
+            "KathleenRice", "Velazquez", "YvetteClarke", "Maloney", "AOC", "NitaLowey", "Beatty", "MarcyKaptur",
+            "MarciaFudge", "KendraHorn", "Bonamici", "MGS", "Dean", "Houlahan", "SusanWild", "Fletcher", "Escobar",
+            "JacksonLee", "SylbiaGarcia", "ElaineLuria", "Spanberger", "Wexton", "DelBene", "HerreraBeutler", "Jayapal",
+            "KimSchrier", "GwenMoore", "MarthaRoby", "Walorski", "SusanWBrooks", "AnnWagner", "Hartzler", "VirginiaFoxx", "Armstrong", "Stefanik", "CathyMcMorris", "LizCheney"
+          ),
+        handle =
+          c(
+            "@SenDougJones", "@SenatorBennet", "@SenBlumenthal", "@SenMurphyOffice",
+            "@ChrisCoons", "@SenatorCarper", "@SenBrianSchatz", "@SenatorDurbin", "@SenMarkey",
+            "@SenatorCardin", "@ChrisVanHollen", "@SenGaryPeters", "@SenBooker",
+            "@SenatorMenendez", "@MartinHeinrich", "@SenatorTomUdall", "@SenSchumer",
+            "@SenSherrodBrown", "@SenJeffMerkley", "@RonWyden", "@SenBobCasey", "@SenToomey",
+            "@SenJackReed", "@SenWhitehouse", "@SenatorLeahy", "@SenSanders", "@MarkWarner",
+            "@Sen_JoeManchin", "@SenDanSullivan", "@SenShelby", "@JohnBoozman", "@SenTomCotton",
+            "@SenCoryGardner", "@SenRubioPress", "@SenRickScott", "@SenatorIsakson",
+            "@sendavidperdue", "@ChuckGrassley", "@MikeCrapo", "@SenatorRisch", "@SenatorBraun",
+            "@SenToddYoung", "@JerryMoran", "@SenPatRoberts", "@SenateMajLdr", "@RandPaul",
+            "@SenBillCassidy", "@SenJohnKennedy", "@RoyBlunt", "@SenHawleyPress",
+            "@SenatorWicker", "@SteveDaines", "@SenatorBurr", "@SenThomTillis",
+            "@SenKevinCramer", "@SenJohnHoeven", "@SenSasse", "@senrobportman", "@JimInhofe",
+            "@SenatorLankford", "@LindseyGrahamSC", "@SenatorTimScott", "@SenatorRounds",
+            "@SenJohnThune", "@SenAlexander", "@JohnCornyn", "@SenTedCruz", "@SenMikeLee",
+            "@SenatorRomney", "@SenRonJohnson", "@SenJohnBarrasso", "@SenatorEnzi", "@SenatorSinema",
+            "@SenFeinstein", "@SenKamalaHarris", "@maziehirono", "@SenDuckworth", "@SenWarren", "@SenStabenow",
+            "@SenAmyKlobuchar", "@SenTinaSmith", "@SenHassan", "@SenatorShaheen", "@SenCortezMasto",
+            "@SenJackyRosen", "@gillibrandny", "@SenatorCantwell", "@PattyMurray",
+            "@SenatorBaldwin", "@lisamurkowski", "@SenMcSallyAZ", "@SenJoniErnst", "@SenatorCollins",
+            "@SenHydeSmith", "@SenatorFischer", "@MarshaBlackburn", "@SenCapito",
+            "@RepOHalleran", "@RepRaulGrijalva", "@RepRubenGallego", "@RepGregStanton",
+            "@RepGaramendi", "@RepThompson", "@RepMcNerney", "@RepJoshHarder",
+            "@RepDeSaulnier", "@RepSwalwell", "@RepJimCosta", "@RepRoKhanna",
+            "@RepJimmyPanetta", "@RepTjCox", "@RepCarbajal", "@RepAdamSchiff", "@RepCardenas",
+            "@BradSherman", "@RepPeteAguilar", "@RepTedLieu", "@RepJimmyGomez",
+            "@CongressmanRuiz", "@RepGilCisneros", "@RepMarkTakano", "@RepLouCorrea",
+            "@RepLowenthal", "@RepHarley", "@RepMikeLevin", "@Rep_Hunter", "@RepJuanVargas",
+            "@RepScottPeters", "@RepJoeNeguse", "@RepJasonCrow", "@RepPerlmutter",
+            "@RepJohnLarson", "@RepJoeCourtney", "@jahimes", "@RepAlLawsonJr", "@DarrenSoto",
+            "@RepValDemings", "@RepCharlieCrist", "@RepTedDeutch", "@SanfordBishop",
+            "@RepHankJohnson", "@repjohnlewis", "@RepLucyMcBath", "@repdavidscott",
+            "@RepEdCase", "@daveloebsack", "@RepBobbyRush", "@RepLipinski", "@RepChuyGarcia",
+            "@RepMikeQuigley", "@RepCasten", "@RepDannyDavis", "@CongressmanRaja",
+            "@RepSchneider", "@RepBillFoster", "@RepVisclosky", "@RepAndreCarlson",
+            "@RepJohnYarmuth", "@RepRichmond", "@chelliepingree", "@RepGolden",
+            "@Call_Me_Dutch", "@RepSarbanes", "@RepAnthonyBrown", "@LeaderHoyer",
+            "@RepDavidTrone", "@RepCummings", "@RepRaskin", "@RepRichardNeal",
+            "@RepMcGovern", "@RepJoeKennedy", "@teammoulton", "@RepStephenLynch",
+            "@USRepKeating", "@RepDanKildee", "@RepAndyLevin", "@repcleaver",
+            "@BennieGThompson", "@GKButterfield", "@RepDavidEPrice", "@RepChrisPappas",
+            "@DonaldNorcross", "@RepAndyKimNJ", "@RepJoshG", "@FrankPallone",
+            "@RepMalinowski", "@RepSires", "@BillPascrell", "@RepDonaldPayne", "@RepSherrill",
+            "@repbenraylujan", "@RepHorsford", "@RepTomSuozzi", "@RepGregoryMeeks",
+            "@RepGraceMeng", "@RepJeffries", "@RepJerryNadler", "@RepMaxRose", "@RepEspaillat",
+            "@RepJoseSerrano", "@RepEliotEngel", "@RepSeanMaloney", "@repdelgado",
+            "@RepPaulTonko", "@RepBrindisi", "@RepJoeMorelle", "@RepBrianHiggins",
+            "@RepTimRyan", "@repgregwalden", "@repblumenauer", "@RepPeterDeFazio",
+            "@RepSchrader", "@CongBoyle", "@RepDwightEvans", "@RepCartwright",
+            "@RepConorLamb", "@USRepMikeDoyle", "@davidcicilline", "@JimLangevin",
+            "@RepCunningham", "@WhipClyburn", "@repjimcooper", "@RepCohen", "@RepAlGreen",
+            "@RepGonzalez", "@JoaquinCastrotx", "@RepCuellar", "@RepEBJ", "@RepColinAllred",
+            "@RepVeasey", "@RepFilemonVela", "@RepLloydDoggett", "@RepBenMcAdams",
+            "@BobbyScott", "@RepMcEachin", "@RepDonBeyer", "@GerryConnolly", "@PeterWelch",
+            "@RepRickLarsen", "@RepDerekKilmer", "@RepAdamSmith", "@RepDennyHeck",
+            "@repmarkpocan", "@RepRonKind", "@RepCarolMiller", "@repdonyoung", "@RepByrne", "@RepMikeRogersAL", "@Robert_Aderholt",
+            "@RepMoBrooks", "@USRepGaryPalmer", "@RepRickCrawford", "@RepFrenchHill",
+            "@rep_stevewomack", "@RepWesterman", "@RepGosar", "@RepAndyBiggsAZ",
+            "@RepDavid", "@RepDLesko", "@RepLaMalfa", "@RepMcClintock", "@RepPaulCook",
+            "@RepDevinNunes", "@GOPLeader", "@KenCalvert", "@RepTipton", "@RepKenBuck",
+            "@RepDLamborn", "@RepMattGaetz", "@DrNealDunnFL2", "@RepTedYoho",
+            "@RepRutherfordFL", "@RepMichaelWaltz", "@congbillposey", "@RepWebster",
+            "@RepGusBilirakis", "@VernBuchanan", "@RepGregSteube", "@RepBrianMast",
+            "@RepRooney", "@MarioDB", "@RepBuddyCarter", "@RepDrewFerguson",
+            "@RepRobWoodall", "@AustinScottGA08", "@RepDougCollins", "@CongressmanHice",
+            "@RepLoudermilk", "@RepRickAllen", "@RepTomGraves", "@RepRussFulcher",
+            "@CongMikeSimpson", "@RepBost", "@RodneyDavis", "@RepShimkus", "@RepKinzinger",
+            "@RepLaHood", "@RepJimBanks", "@RepJimBaird", "@RepGregPence",
+            "@RepLarryBucshon", "@RepTrey", "@RepRonEstes", "@RepGuthrie", "@RepThomasMassie",
+            "@RepHalRogers", "@RepAndyBarr", "@SteveScalise", "@RepClayHiggins",
+            "@RepMikeJohnson", "@RepAbraham", "@RepGarretGraves", "@RepAndyHarrisMD",
+            "@RepJackBergman", "@RepHuizenga", "@justinamash", "@RepMoolenaar",
+            "@RepFredUpton", "@RepWalberg", "@RepSlotkin", "@RepPaulMitchell", "@RepHagedorn",
+            "@RepTomEmmer", "@RepPeteStauber", "@RepBlaine", "@RepSamGraves", "@USRepLong",
+            "@RepJasonSmith", "@RepTrentKelly", "@RepMichaelGuest", "@CongPalazzo",
+            "@RepHolding", "@RepWalterJones", "@RepMarkWalker", "@RepDavidRouzer",
+            "@RepRichHudson", "@PatrickMcHenry", "@RepMarkMeadows", "@RepTedBudd",
+            "@JeffFortenberry", "@RepDonBacon", "@RepAdrianSmith", "@CongressmanJVD",
+            "@RepChrisSmith", "@MarkAmodeiNV2", "@RepLeeZeldin", "@RepPeteKing",
+            "@RepTomReed", "@RepJohnKatko", "@RepChrisCollins", "@RepSteveChabot",
+            "@RepBradWenstrup", "@Jim_Jordan", "@boblatta", "@RepBillJohnson", "@RepBobGibbs",
+            "@WarrenDavidson", "@RepMikeTurner", "@RepBalderson", "@RepDaveJoyce",
+            "@RepSteveStivers", "@RepAGonzalez", "@repkevinhern", "@RepMullin", "@RepFrankLucas",
+            "@TomColeOK04", "@RepBrianFitz", "@RepMeuser", "@RepScottPerry", "@RepSmucker",
+            "@RepJohnJoyce", "@GReschenthaler", "@CongressmanGT", "@MikeKellyPA",
+            "@RepJoeWilson", "@RepJeffDuncan", "@reptimmons", "@RepRalphNorman",
+            "@RepTomRice", "@RepDustyJohnson", "@DrPhilRoe", "@RepTimBurchett", "@RepChuck",
+            "@RepDesJarlaisTN04", "@RepJohnRose", "@RepMarkGreen", "@RepDavidKustoff",
+            "@replouiegohmert", "@RepDanCrenshaw", "@RepVanTaylor", "@RepRatcliffe",
+            "@RepLanceGooden", "@RepRonWright", "@RepKevinBrady", "@RepMcCaul",
+            "@ConawayTX11", "@RepKayGranger", "@MacTXPress", "@TXRandy14", "@RepBillFlores",
+            "@RepArrington", "@RepChipRoy", "@RepPeteOlson", "@HurdOnTheHill",
+            "@RepKenMarchant", "@RepRWilliams", "@michaelcburgess", "@RepCloudTX",
+            "@JudgeCarter", "@RepBrianBabin", "@RepRobBishop", "@RepChrisStewart",
+            "@RepJohnCurtis", "@RobWittman", "@RepRiggleman", "@RepBenCline", "@RepMGriffith",
+            "@RepNewhouse", "@RepBryanSteil", "@JimPressOffice", "@RepGrothman",
+            "@RepSeanDuffy", "@RepGallagher", "@RepMcKinley", "@RepAlexMooney", "@RepTerriSewell", "@RepKirkpatrick", "@DorisMatsui", "@RepBera", "@SpeakerPelosi",
+            "@RepBarbaraLee", "@RepSpeier", "@RepAnnaEshoo", "@RepZoeLofgren", "@RepKatieHill",
+            "@RepBrownley", "@RepJudyChu", "@gracenapolitano", "@NormaJTorres",
+            "@RepKarenBass", "@RepLindaSanchez", "@RepRoybalAllard", "@RepMaxineWaters",
+            "@RepBarragan", "@RepKatiePorter", "@RepSusanDavis", "@RepDianaDeGette",
+            "@rosadelauro", "@RepJahanaHayes", "@RepLBR", "@EleanorNorton", "@RepStephMurphy",
+            "@USRepKCastor", "@RepHastingsFL", "@RepLoisHankel", "@RepDWStweets",
+            "@RepWilson", "@RepDMP", "@RepShalala", "@TulsiPress", "@RepFinkenauer",
+            "@RepCindyAxne", "@RepRobinKelly", "@janschakowsky", "@RepUnderwood", "@RepCheri",
+            "@RepDavids", "@RepLoriTrahan", "@RepKClark", "@RepPressley", "@RepHaleyStevens",
+            "@RepDebDingell", "@RepRashida", "@RepLawrence", "@RepAngieCraig",
+            "@BettyMcCollum04", "@Ilhan", "@LacyClayMO1", "@RepAdams", "@RepAnnieKuster",
+            "@RepBonnie", "@RepDebHaaland", "@RepTorresSmall", "@repdinatitus", "@RepSusieLee",
+            "@RepKathleenRice", "@NydiaVelazquez", "@RepYvetteClarke", "@RepMaloney",
+            "@RepAOC", "@NitaLowey", "@RepBeatty", "@RepMarcyKaptur", "@RepMarciaFudge",
+            "@RepKendraHorn", "@RepBonamici", "@RepMGS", "@RepDean", "@RepHoulahan",
+            "@RepSusanWild", "@RepFletcher", "@RepEscobar", "@JacksonLeeTX18",
+            "@RepSylviaGarcia", "@RepElaineLuria", "@RepSpanberger", "@RepWexton",
+            "@RepDelBene", "@HerreraBeutler", "@RepJayapal", "@RepKimSchrier", "@RepGwenMoore", "@RepMarthaRoby", "@RepWalorski", "@SusanWBrooks", "@RepAnnWagner",
+            "@RepHartzler", "@virginiafoxx", "@RepArmstrongND", "@RepStefanik", "@cathymcmorris",
+            "@RepLizCheney"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["all"]][["last.name"]])
+      ),
+
+
+
+      ################
+      #### senate ####
+      ################
+
+
+      senate = list(
+        last.name =
+          c(
+            "Jones", "Bennet", "Blumenthal", "Murphy", "ChrisCoons", "Carper", "BrianSchatz", "Durbin",
+            "Markey", "Cardin", "ChrisVanHollen", "GaryPeters", "Booker", "Menendez", "MartinHeinrich", "TomUdall", "Schumer",
+            "SherrodBrown", "JeffMerkley", "RonWyden", "BobCasey", "Toomey", "JackReed", "Whitehouse", "Leahy", "Sanders", "MarkWarner",
+            "JoeManchin", "DanSullivan", "Shelby", "JohnBoozman", "TomCotton", "CoryGardner", "Rubio", "RickScott", "Isakson",
+            "DavidPerdue", "ChuckGrassley", "MikeCrapo", "Risch", "Braun", "ToddYoung", "JerryMoran", "PatRoberts", "McConnell",
+            "RandPaul", "BillCassidy", "JohnKennedy", "RoyBlunt", "Hawley", "Wicker", "SteveDaines", "Burr", "ThomTillis",
+            "KevinCramer", "JohnHoeven", "Sasse", "RobPortman", "JimInhofe", "Lankford", "LindseyGraham", "TimScott", "Rounds",
+            "JohnThune", "Alexander", "JohnCornyn", "TedCruz", "MikeLee", "Romney", "RonJohnson", "JohnBarrasso", "Enzi",
+            "Sinema", "Feinstein", "KamalaHarris", "MazieHirono", "Duckworth", "Warren", "Stabenow",
+            "AmyKlobuchar", "TinaSmith", "Hassan", "Shaheen", "CortezMasto", "JackyRosen", "Gillibrand", "Cantwell", "Murray",
+            "Baldwin", "LisaMukowski", "McSally", "JoniErnst", "Collins", "HydeSmith", "Fischer", "MarshaBlackburn", "Captio"
+          ),
+        handle =
+          c(
+            "@SenDougJones", "@SenatorBennet", "@SenBlumenthal", "@SenMurphyOffice",
+            "@ChrisCoons", "@SenatorCarper", "@SenBrianSchatz", "@SenatorDurbin", "@SenMarkey",
+            "@SenatorCardin", "@ChrisVanHollen", "@SenGaryPeters", "@SenBooker",
+            "@SenatorMenendez", "@MartinHeinrich", "@SenatorTomUdall", "@SenSchumer",
+            "@SenSherrodBrown", "@SenJeffMerkley", "@RonWyden", "@SenBobCasey", "@SenToomey",
+            "@SenJackReed", "@SenWhitehouse", "@SenatorLeahy", "@SenSanders", "@MarkWarner",
+            "@Sen_JoeManchin", "@SenDanSullivan", "@SenShelby", "@JohnBoozman", "@SenTomCotton",
+            "@SenCoryGardner", "@SenRubioPress", "@SenRickScott", "@SenatorIsakson",
+            "@sendavidperdue", "@ChuckGrassley", "@MikeCrapo", "@SenatorRisch", "@SenatorBraun",
+            "@SenToddYoung", "@JerryMoran", "@SenPatRoberts", "@SenateMajLdr", "@RandPaul",
+            "@SenBillCassidy", "@SenJohnKennedy", "@RoyBlunt", "@SenHawleyPress",
+            "@SenatorWicker", "@SteveDaines", "@SenatorBurr", "@SenThomTillis",
+            "@SenKevinCramer", "@SenJohnHoeven", "@SenSasse", "@senrobportman", "@JimInhofe",
+            "@SenatorLankford", "@LindseyGrahamSC", "@SenatorTimScott", "@SenatorRounds",
+            "@SenJohnThune", "@SenAlexander", "@JohnCornyn", "@SenTedCruz", "@SenMikeLee",
+            "@SenatorRomney", "@SenRonJohnson", "@SenJohnBarrasso", "@SenatorEnzi", "@SenatorSinema", "@SenFeinstein", "@SenKamalaHarris", "@maziehirono",
+            "@SenDuckworth", "@SenWarren", "@SenStabenow", "@SenAmyKlobuchar",
+            "@SenTinaSmith", "@SenHassan", "@SenatorShaheen", "@SenCortezMasto",
+            "@SenJackyRosen", "@gillibrandny", "@SenatorCantwell", "@PattyMurray",
+            "@SenatorBaldwin", "@lisamurkowski", "@SenMcSallyAZ", "@SenJoniErnst", "@SenatorCollins",
+            "@SenHydeSmith", "@SenatorFischer", "@MarshaBlackburn", "@SenCapito"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["senate"]][["last.name"]])
+      ),
+
+
+      ################
+      #### house ####
+      ################
+
+
+      house = list(
+        last.name =
+          c(
+            "OHalleran", "RaulGrijalva", "RubenGallego", "GregStanton", "Garamendi", "Thompson",
+            "McNerney", "JoshHarder", "DeSaulnier", "Swalwell", "JimCosta", "RoKhanna", "JimmyPanetta", "TJCox", "Carabajal",
+            "AdamSchiff", "Cardenas", "BradSherman", "PeteAguilar", "TedLieu", "JimmyGomez", "Ruiz",
+            "GilCisneros", "MarkTakano", "LouCorrea", "Lownethal", "Harley", "MikeLevin", "Hunter", "Juan Vargas",
+            "ScottPeters", "JoeNeguse", "JasonCrow", "Perlmutter", "JohnLarson", "JoeCourtney", "Jahimes", "AlLawson",
+            "DarrenSoto", "ValDemings", "CharlieCrist", "TedDeutch", "SanfordBishop", "HankJohnson", "JohnLewis",
+            "LucyMcBath", "DavidScott", "EdCase", "JohnLewis", "LucyMcBath", "DavidScott", "EdCase", "DaveLoebsack",
+            "BobbyRush", "Lipinski", "ChuyGarcia", "MikeQuigley", "Casten", "DannyDavis", "Raja",
+            "Schneider", "BillFoster", "Visclosky", "AndreCarlson", "JohnYarmuth", "Richmond", "Chelliepingree", "Golden",
+            "Dutch", "Sarbanes", "AnthonyBrown", "Hoyer", "DavidTrone", "Cummings", "Raskin", "RichardNeal", "McGovern",
+            "JoeKennedy", "Moulton", "StephenLynch", "Keating", "DanKildee", "AndyLevin", "Cleaver",
+            "BennieGTomphson", "Butterfield", "DavidEPrice", "ChrisPappas", "DonaldNorcross", "Andy Kim", "Josh G",
+            "FrankPallone", "Malinowski", "Sires", "BillPascrell", "DonaldPayne", "Sherrill", "BenRayLujan", "Horsford",
+            "Souzzi", "GreggoryMeeks", "GraceMeng", "Jeffires", "JerryNadler", "MaxRose", "Espaillat", "JoseSerrano",
+            "ElliotEngel", "SeanMaloney", "Delgado", "PaulTonko", "Brindisi", "JoeMorelle", "BrianHiggins", "Schrader",
+            "Boyle", "DwightEvans", "Cartwright", "ConorLamb", "MikeDoyle", "DavidCicilline", "JimLangevin",
+            "Cunningham", "Clyburn", "JimCooper", "Cohen", "AlGreen", "Gonzalez", "JoaquinCastro", "Cuellar", "EBJ",
+            "ColinAllred", "Veasey", "FilemonVela", "LloydDoggett", "BenMcAdams", "BobbyScott", "McEachin", "Don Beyer",
+            "GerryConnolly", "PeterWelch", "RickLarsen", "DerekKilmer", "AdamSmith", "DennyHeck", "MarkPocan",
+            "RonKind", "CarolMiller", "DonYoung", "Byrne", "MikeRogers", "RobertAderholt", "MoBrooks",
+            "GaryPalmer", "RickCrawford", "FrenchHill", "SteveWomack", "Westerman", "Gosar",
+            "AndyBiggs", "David", "DLesko", "LaMalfa", "McClintock", "PaulCook", "DevinNunes",
+            "McCarthy", "Calvert", "Tipton", "KenBuck", "DLamborn", "MattGaetz", "NealDunn",
+            "TedYoho", "Rutherford", "MichaelWaltz", "BillPosey", "Webster", "GusBilirakis",
+            "VernBuchanan", "GregSteube", "BrianMast", "Rooney", "MarioDB", "BuddyCarter", "DrewFerguson",
+            "RobWoodall", "AustinScott", "DougCollins", "Hice", "Laudermilk", "RickAllen", "TomGraves", "RussFulcher",
+            "MikeSimpson", "Bost", "RodneyDavis", "Shimkus", "Kinzinger", "LaHood", "JimBanks", "JimBaird",
+            "GregPence", "LarryBucshon", "Trey", "RonEstes", "Guthrie", "ThomasMassie", "HalRogers",
+            "AndyBarr", "Scalise", "ClayHiggins", "MikeJohnson", "Abraham", "GarretGraves", "AndyHarris",
+            "JackBergman", "Huizenga", "JustinAmash", "Moolenaar", "FredUpton", "Walberg", "Slotkin", "PaulMitchell",
+            "Hagedorn", "TomEmmer", "PeteStauber", "Blaine", "SamGraves", "Long", "JasonSmith", "TrentKelly",
+            "MichaelGuest", "Palazzo", "Holding", "WalterJones", "MarkWalker", "DavidRouzer", "RichHudson", "PatricMcHenry",
+            "MarkMeadows", "TedBudd", "JeffFortenberry", "DonBacon", "AdrianSmith", "JYD", "ChrisSmith", "MarkAmodei",
+            "LeeZeldin", "PeteKing", "TomReed", "JohnKatko", "ChrisCollins", "SteveChabot", "BradWenstrup", "JimJordan",
+            "BobLatta", "BillJohnson", "BobGibbs", "WarrenDavidson", "MikeTurner", "Balderson", "DaveJoyce", "SteveStivers",
+            "A Gonzalez", "KevinHern", "Mullin", "FrankLucas", "TomCole", "BrianFitz", "Meuser", "ScottPerry", "Smucker",
+            "JohnJoyce", "GReschenthaler", "GT", "Mike Kelly", "Joe Wilson", "Jeff Duncan", "Timmons", "Ralph Norman",
+            "TomRice", "DustyJohnson", "PhilRoe", "TimBurchett", "Chuck", "DesJarlais", "JohnRose", "MarkGreen", "DavidKustoff",
+            "LouisGohmert", "DanCrenshaw", "VanTaylor", "Ratcliffe", "LanceGooden", "RonWright", "KevinBrady",
+            "McCaul", "Conaway", "KayGranger", "Mac", "Randy", "BillFlores", "Arrington", "ChipRoy", "PeteOlson", "Hurd",
+            "KenMarchant", "RWilliams", "MichaelCBurgess", "Cloud", "JudgeCarter", "BrianBabin", "RobBishop", "ChrisStewart",
+            "JohnCurtis", "RobWittman", "Riggleman", "BenCline", "MGriffith", "Newhouse", "BryanSteil", "Jim", "Grothman",
+            "SeanDuffy", "Gallagher", "McKinley", "AlexMooney", "TerriSewell", "Kirkpatrick", "Matsui", "Bera", "Pelosi", "Lee", "Speier", "AnnaEshoo", "ZoeLofgren", "KatieHill",
+            "Brownley", "JudyChu", "GraceNapolitano", "NormaJTorres", "KarenBass", "LindaSanchez", "RoybalAllard", "MaxineWaters",
+            "Barragan", "KatiePorter", "SusanDavis", "DianaDegette", "RosaDelauro", "JahanaHayes", "LBR", "EleanorNorton",
+            "StephMurphy", "KCastor", "Hastings", "LoisHankel", "DWS", "WIlson", "DMP", "Shalala", "Tulsi", "Rinkenauer",
+            "CindyAxne", "RobinKelly", "Janschakowsky", "Underwood", "Cheri", "Davids", "LoriTrahan", "KClark",
+            "Pressley", "HaleyStevens", "DebDingell", "Rashida", "Lawrence", "AngieCraig", "McCollum", "Ilhan",
+            "LacyClay", "Adams", "AnnieKuster", "Bonnie", "Haaland", "TorresSmall", "Dinatitus", "SusieLee",
+            "KathleenRice", "Velazquez", "YvetteClarke", "Maloney", "AOC", "NitaLowey", "Beatty", "MarcyKaptur",
+            "MarciaFudge", "KendraHorn", "Bonamici", "MGS", "Dean", "Houlahan", "SusanWild", "Fletcher", "Escobar",
+            "JacksonLee", "SylbiaGarcia", "ElaineLuria", "Spanberger", "Wexton", "DelBene", "HerreraBeutler", "Jayapal",
+            "KimSchrier", "GwenMoore", "MarthaRoby", "Walorski", "SusanWBrooks", "AnnWagner", "Hartzler", "VirginiaFoxx", "Armstrong", "Stefanik", "CathyMcMorris", "LizCheney"
+          ),
+        handle =
+          c(
+            "@RepOHalleran", "@RepRaulGrijalva", "@RepRubenGallego", "@RepGregStanton",
+            "@RepGaramendi", "@RepThompson", "@RepMcNerney", "@RepJoshHarder",
+            "@RepDeSaulnier", "@RepSwalwell", "@RepJimCosta", "@RepRoKhanna",
+            "@RepJimmyPanetta", "@RepTjCox", "@RepCarbajal", "@RepAdamSchiff", "@RepCardenas",
+            "@BradSherman", "@RepPeteAguilar", "@RepTedLieu", "@RepJimmyGomez",
+            "@CongressmanRuiz", "@RepGilCisneros", "@RepMarkTakano", "@RepLouCorrea",
+            "@RepLowenthal", "@RepHarley", "@RepMikeLevin", "@Rep_Hunter", "@RepJuanVargas",
+            "@RepScottPeters", "@RepJoeNeguse", "@RepJasonCrow", "@RepPerlmutter",
+            "@RepJohnLarson", "@RepJoeCourtney", "@jahimes", "@RepAlLawsonJr", "@DarrenSoto",
+            "@RepValDemings", "@RepCharlieCrist", "@RepTedDeutch", "@SanfordBishop",
+            "@RepHankJohnson", "@repjohnlewis", "@RepLucyMcBath", "@repdavidscott",
+            "@RepEdCase", "@daveloebsack", "@RepBobbyRush", "@RepLipinski", "@RepChuyGarcia",
+            "@RepMikeQuigley", "@RepCasten", "@RepDannyDavis", "@CongressmanRaja",
+            "@RepSchneider", "@RepBillFoster", "@RepVisclosky", "@RepAndreCarlson",
+            "@RepJohnYarmuth", "@RepRichmond", "@chelliepingree", "@RepGolden",
+            "@Call_Me_Dutch", "@RepSarbanes", "@RepAnthonyBrown", "@LeaderHoyer",
+            "@RepDavidTrone", "@RepCummings", "@RepRaskin", "@RepRichardNeal",
+            "@RepMcGovern", "@RepJoeKennedy", "@teammoulton", "@RepStephenLynch",
+            "@USRepKeating", "@RepDanKildee", "@RepAndyLevin", "@repcleaver",
+            "@BennieGThompson", "@GKButterfield", "@RepDavidEPrice", "@RepChrisPappas",
+            "@DonaldNorcross", "@RepAndyKimNJ", "@RepJoshG", "@FrankPallone",
+            "@RepMalinowski", "@RepSires", "@BillPascrell", "@RepDonaldPayne", "@RepSherrill",
+            "@repbenraylujan", "@RepHorsford", "@RepTomSuozzi", "@RepGregoryMeeks",
+            "@RepGraceMeng", "@RepJeffries", "@RepJerryNadler", "@RepMaxRose", "@RepEspaillat",
+            "@RepJoseSerrano", "@RepEliotEngel", "@RepSeanMaloney", "@repdelgado",
+            "@RepPaulTonko", "@RepBrindisi", "@RepJoeMorelle", "@RepBrianHiggins",
+            "@RepTimRyan", "@repgregwalden", "@repblumenauer", "@RepPeterDeFazio",
+            "@RepSchrader", "@CongBoyle", "@RepDwightEvans", "@RepCartwright",
+            "@RepConorLamb", "@USRepMikeDoyle", "@davidcicilline", "@JimLangevin",
+            "@RepCunningham", "@WhipClyburn", "@repjimcooper", "@RepCohen", "@RepAlGreen",
+            "@RepGonzalez", "@JoaquinCastrotx", "@RepCuellar", "@RepEBJ", "@RepColinAllred",
+            "@RepVeasey", "@RepFilemonVela", "@RepLloydDoggett", "@RepBenMcAdams",
+            "@BobbyScott", "@RepMcEachin", "@RepDonBeyer", "@GerryConnolly", "@PeterWelch",
+            "@RepRickLarsen", "@RepDerekKilmer", "@RepAdamSmith", "@RepDennyHeck",
+            "@repmarkpocan", "@RepRonKind", "@RepCarolMiller", "@repdonyoung", "@RepByrne", "@RepMikeRogersAL", "@Robert_Aderholt",
+            "@RepMoBrooks", "@USRepGaryPalmer", "@RepRickCrawford", "@RepFrenchHill",
+            "@rep_stevewomack", "@RepWesterman", "@RepGosar", "@RepAndyBiggsAZ",
+            "@RepDavid", "@RepDLesko", "@RepLaMalfa", "@RepMcClintock", "@RepPaulCook",
+            "@RepDevinNunes", "@GOPLeader", "@KenCalvert", "@RepTipton", "@RepKenBuck",
+            "@RepDLamborn", "@RepMattGaetz", "@DrNealDunnFL2", "@RepTedYoho",
+            "@RepRutherfordFL", "@RepMichaelWaltz", "@congbillposey", "@RepWebster",
+            "@RepGusBilirakis", "@VernBuchanan", "@RepGregSteube", "@RepBrianMast",
+            "@RepRooney", "@MarioDB", "@RepBuddyCarter", "@RepDrewFerguson",
+            "@RepRobWoodall", "@AustinScottGA08", "@RepDougCollins", "@CongressmanHice",
+            "@RepLoudermilk", "@RepRickAllen", "@RepTomGraves", "@RepRussFulcher",
+            "@CongMikeSimpson", "@RepBost", "@RodneyDavis", "@RepShimkus", "@RepKinzinger",
+            "@RepLaHood", "@RepJimBanks", "@RepJimBaird", "@RepGregPence",
+            "@RepLarryBucshon", "@RepTrey", "@RepRonEstes", "@RepGuthrie", "@RepThomasMassie",
+            "@RepHalRogers", "@RepAndyBarr", "@SteveScalise", "@RepClayHiggins",
+            "@RepMikeJohnson", "@RepAbraham", "@RepGarretGraves", "@RepAndyHarrisMD",
+            "@RepJackBergman", "@RepHuizenga", "@justinamash", "@RepMoolenaar",
+            "@RepFredUpton", "@RepWalberg", "@RepSlotkin", "@RepPaulMitchell", "@RepHagedorn",
+            "@RepTomEmmer", "@RepPeteStauber", "@RepBlaine", "@RepSamGraves", "@USRepLong",
+            "@RepJasonSmith", "@RepTrentKelly", "@RepMichaelGuest", "@CongPalazzo",
+            "@RepHolding", "@RepWalterJones", "@RepMarkWalker", "@RepDavidRouzer",
+            "@RepRichHudson", "@PatrickMcHenry", "@RepMarkMeadows", "@RepTedBudd",
+            "@JeffFortenberry", "@RepDonBacon", "@RepAdrianSmith", "@CongressmanJVD",
+            "@RepChrisSmith", "@MarkAmodeiNV2", "@RepLeeZeldin", "@RepPeteKing",
+            "@RepTomReed", "@RepJohnKatko", "@RepChrisCollins", "@RepSteveChabot",
+            "@RepBradWenstrup", "@Jim_Jordan", "@boblatta", "@RepBillJohnson", "@RepBobGibbs",
+            "@WarrenDavidson", "@RepMikeTurner", "@RepBalderson", "@RepDaveJoyce",
+            "@RepSteveStivers", "@RepAGonzalez", "@repkevinhern", "@RepMullin", "@RepFrankLucas",
+            "@TomColeOK04", "@RepBrianFitz", "@RepMeuser", "@RepScottPerry", "@RepSmucker",
+            "@RepJohnJoyce", "@GReschenthaler", "@CongressmanGT", "@MikeKellyPA",
+            "@RepJoeWilson", "@RepJeffDuncan", "@reptimmons", "@RepRalphNorman",
+            "@RepTomRice", "@RepDustyJohnson", "@DrPhilRoe", "@RepTimBurchett", "@RepChuck",
+            "@RepDesJarlaisTN04", "@RepJohnRose", "@RepMarkGreen", "@RepDavidKustoff",
+            "@replouiegohmert", "@RepDanCrenshaw", "@RepVanTaylor", "@RepRatcliffe",
+            "@RepLanceGooden", "@RepRonWright", "@RepKevinBrady", "@RepMcCaul",
+            "@ConawayTX11", "@RepKayGranger", "@MacTXPress", "@TXRandy14", "@RepBillFlores",
+            "@RepArrington", "@RepChipRoy", "@RepPeteOlson", "@HurdOnTheHill",
+            "@RepKenMarchant", "@RepRWilliams", "@michaelcburgess", "@RepCloudTX",
+            "@JudgeCarter", "@RepBrianBabin", "@RepRobBishop", "@RepChrisStewart",
+            "@RepJohnCurtis", "@RobWittman", "@RepRiggleman", "@RepBenCline", "@RepMGriffith",
+            "@RepNewhouse", "@RepBryanSteil", "@JimPressOffice", "@RepGrothman",
+            "@RepSeanDuffy", "@RepGallagher", "@RepMcKinley", "@RepAlexMooney", "@RepTerriSewell", "@RepKirkpatrick", "@DorisMatsui", "@RepBera", "@SpeakerPelosi",
+            "@RepBarbaraLee", "@RepSpeier", "@RepAnnaEshoo", "@RepZoeLofgren", "@RepKatieHill",
+            "@RepBrownley", "@RepJudyChu", "@gracenapolitano", "@NormaJTorres",
+            "@RepKarenBass", "@RepLindaSanchez", "@RepRoybalAllard", "@RepMaxineWaters",
+            "@RepBarragan", "@RepKatiePorter", "@RepSusanDavis", "@RepDianaDeGette",
+            "@rosadelauro", "@RepJahanaHayes", "@RepLBR", "@EleanorNorton", "@RepStephMurphy",
+            "@USRepKCastor", "@RepHastingsFL", "@RepLoisHankel", "@RepDWStweets",
+            "@RepWilson", "@RepDMP", "@RepShalala", "@TulsiPress", "@RepFinkenauer",
+            "@RepCindyAxne", "@RepRobinKelly", "@janschakowsky", "@RepUnderwood", "@RepCheri",
+            "@RepDavids", "@RepLoriTrahan", "@RepKClark", "@RepPressley", "@RepHaleyStevens",
+            "@RepDebDingell", "@RepRashida", "@RepLawrence", "@RepAngieCraig",
+            "@BettyMcCollum04", "@Ilhan", "@LacyClayMO1", "@RepAdams", "@RepAnnieKuster",
+            "@RepBonnie", "@RepDebHaaland", "@RepTorresSmall", "@repdinatitus", "@RepSusieLee",
+            "@RepKathleenRice", "@NydiaVelazquez", "@RepYvetteClarke", "@RepMaloney",
+            "@RepAOC", "@NitaLowey", "@RepBeatty", "@RepMarcyKaptur", "@RepMarciaFudge",
+            "@RepKendraHorn", "@RepBonamici", "@RepMGS", "@RepDean", "@RepHoulahan",
+            "@RepSusanWild", "@RepFletcher", "@RepEscobar", "@JacksonLeeTX18",
+            "@RepSylviaGarcia", "@RepElaineLuria", "@RepSpanberger", "@RepWexton",
+            "@RepDelBene", "@HerreraBeutler", "@RepJayapal", "@RepKimSchrier", "@RepGwenMoore", "@RepMarthaRoby", "@RepWalorski", "@SusanWBrooks", "@RepAnnWagner",
+            "@RepHartzler", "@virginiafoxx", "@RepArmstrongND", "@RepStefanik", "@cathymcmorris",
+            "@RepLizCheney"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["house"]][["last.name"]])
+      ),
+
+
+      #############
+      #### smd ####
+      #############
+
+
+      senmaleD = list(
+        last.name =
+          c(
+            "Jones", "Bennet", "Blumenthal", "Murphy", "ChrisCoons", "Carper", "BrianSchatz", "Durbin",
+            "Markey", "Cardin", "ChrisVanHollen", "GaryPeters", "Booker", "Menendez", "MartinHeinrich", "TomUdall", "Schumer",
+            "SherrodBrown", "JeffMerkley", "RonWyden", "BobCasey", "Toomey", "JackReed", "Whitehouse", "Leahy", "Sanders", "MarkWarner",
+            "JoeManchin"
+          ),
+        handle =
+          c(
+            "@SenDougJones", "@SenatorBennet", "@SenBlumenthal", "@SenMurphyOffice",
+            "@ChrisCoons", "@SenatorCarper", "@SenBrianSchatz", "@SenatorDurbin", "@SenMarkey",
+            "@SenatorCardin", "@ChrisVanHollen", "@SenGaryPeters", "@SenBooker",
+            "@SenatorMenendez", "@MartinHeinrich", "@SenatorTomUdall", "@SenSchumer",
+            "@SenSherrodBrown", "@SenJeffMerkley", "@RonWyden", "@SenBobCasey", "@SenToomey",
+            "@SenJackReed", "@SenWhitehouse", "@SenatorLeahy", "@SenSanders", "@MarkWarner",
+            "@Sen_JoeManchin"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["senmaleD"]][["last.name"]])
+      ),
+
+
+      #############
+      #### smr ####
+      #############
+
+
+      senmaleR = list(
+        last.name =
+          c(
+            "DanSullivan", "Shelby", "JohnBoozman", "TomCotton", "CoryGardner", "Rubio", "RickScott", "Isakson",
+            "DavidPerdue", "ChuckGrassley", "MikeCrapo", "Risch", "Braun", "ToddYoung", "JerryMoran", "PatRoberts", "McConnell",
+            "RandPaul", "BillCassidy", "JohnKennedy", "RoyBlunt", "Hawley", "Wicker", "SteveDaines", "Burr", "ThomTillis",
+            "KevinCramer", "JohnHoeven", "Sasse", "RobPortman", "JimInhofe", "Lankford", "LindseyGraham", "TimScott", "Rounds",
+            "JohnThune", "Alexander", "JohnCornyn", "TedCruz", "MikeLee", "Romney", "RonJohnson", "JohnBarrasso", "Enzi"
+          ),
+        handle =
+          c(
+            "@SenDanSullivan", "@SenShelby", "@JohnBoozman", "@SenTomCotton",
+            "@SenCoryGardner", "@SenRubioPress", "@SenRickScott", "@SenatorIsakson",
+            "@sendavidperdue", "@ChuckGrassley", "@MikeCrapo", "@SenatorRisch", "@SenatorBraun",
+            "@SenToddYoung", "@JerryMoran", "@SenPatRoberts", "@SenateMajLdr", "@RandPaul",
+            "@SenBillCassidy", "@SenJohnKennedy", "@RoyBlunt", "@SenHawleyPress",
+            "@SenatorWicker", "@SteveDaines", "@SenatorBurr", "@SenThomTillis",
+            "@SenKevinCramer", "@SenJohnHoeven", "@SenSasse", "@senrobportman", "@JimInhofe",
+            "@SenatorLankford", "@LindseyGrahamSC", "@SenatorTimScott", "@SenatorRounds",
+            "@SenJohnThune", "@SenAlexander", "@JohnCornyn", "@SenTedCruz", "@SenMikeLee",
+            "@SenatorRomney", "@SenRonJohnson", "@SenJohnBarrasso", "@SenatorEnzi"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["senmaleR"]][["last.name"]])
+      ),
+
+
+      #############
+      #### sfd ####
+      #############
+
+
+      senfemaleD = list(
+        last.name =
+          c(
+            "Sinema", "Feinstein", "KamalaHarris", "MazieHirono", "Duckworth", "Warren", "Stabenow",
+            "AmyKlobuchar", "TinaSmith", "Hassan", "Shaheen", "CortezMasto", "JackyRosen", "Gillibrand", "Cantwell", "Murray",
+            "Baldwin"
+          ),
+        handle =
+          c(
+            "@SenatorSinema", "@SenFeinstein", "@SenKamalaHarris", "@maziehirono",
+            "@SenDuckworth", "@SenWarren", "@SenStabenow", "@SenAmyKlobuchar",
+            "@SenTinaSmith", "@SenHassan", "@SenatorShaheen", "@SenCortezMasto",
+            "@SenJackyRosen", "@gillibrandny", "@SenatorCantwell", "@PattyMurray",
+            "@SenatorBaldwin"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["senemaleD"]][["last.name"]])
+      ),
+
+
+      #############
+      #### sfr ####
+      #############
+
+
+      senfemaleR = list(
+        last.name =
+          c("LisaMukowski", "McSally", "JoniErnst", "Collins", "HydeSmith", "Fischer", "MarshaBlackburn", "Captio"),
+        handle =
+          c(
+            "@lisamurkowski", "@SenMcSallyAZ", "@SenJoniErnst", "@SenatorCollins",
+            "@SenHydeSmith", "@SenatorFischer", "@MarshaBlackburn", "@SenCapito"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["senfemaleR"]][["last.name"]])
+      ),
+
+
+      #############
+      #### hmd ####
+      #############
+
+
+      hormaleD = list(
+        last.name =
+          c(
+            "OHalleran", "RaulGrijalva", "RubenGallego", "GregStanton", "Garamendi", "Thompson",
+            "McNerney", "JoshHarder", "DeSaulnier", "Swalwell", "JimCosta", "RoKhanna", "JimmyPanetta", "TJCox", "Carabajal",
+            "AdamSchiff", "Cardenas", "BradSherman", "PeteAguilar", "TedLieu", "Jimmy Gomez", "Ruiz",
+            "GilCisneros", "MarkTakano", "LouCorrea", "Lownethal", "Harley", "MikeLevin", "Hunter", "JuanVargas",
+            "ScottPeters", "JoeNeguse", "JasonCrow", "Perlmutter", "JohnLarson", "JoeCourtney", "Jahimes", "AlLawson",
+            "DarrenSoto", "ValDemings", "CharlieCrist", "TedDeutch", "SanfordBishop", "HankJohnson", "JohnLewis",
+            "LucyMcBath", "DavidScott", "EdCase", "JohnLewis", "LucyMcBath", "DavidScott", "EdCase", "DaveLoebsack",
+            "BobbyRush", "Lipinski", "ChuyGarcia", "MikeQuigley", "Casten", "DannyDavis", "Raja",
+            "Schneider", "BillFoster", "Visclosky", "AndreCarlson", "JohnYarmuth", "Richmond", "Chelliepingree", "Golden",
+            "Dutch", "Sarbanes", "AnthonyBrown", "Hoyer", "DavidTrone", "Cummings", "Raskin", "RichardNeal", "McGovern",
+            "JoeKennedy", "Moulton", "StephenLynch", "Keating", "DanKildee", "AndyLevin", "Cleaver",
+            "BennieGTomphson", "Butterfield", "DavidEPrice", "ChrisPappas", "DonaldNorcross", "AndyKim", "JoshG",
+            "FrankPallone", "Malinowski", "Sires", "BillPascrell", "DonaldPayne", "Sherrill", "BenRayLujan", "Horsford",
+            "Souzzi", "GreggoryMeeks", "GraceMeng", "Jeffires", "JerryNadler", "MaxRose", "Espaillat", "JoseSerrano",
+            "ElliotEngel", "SeanMaloney", "Delgado", "PaulTonko", "Brindisi", "JoeMorelle", "BrianHiggins", "Schrader",
+            "Boyle", "DwightEvans", "Cartwright", "ConorLamb", "MikeDoyle", "DavidCicilline", "JimLangevin",
+            "Cunningham", "Clyburn", "JimCooper", "Cohen", "AlGreen", "Gonzalez", "JoaquinCastro", "Cuellar", "EBJ",
+            "ColinAllred", "Veasey", "FilemonVela", "LloydDoggett", "BenMcAdams", "BobbyScott", "McEachin", "DonBeyer",
+            "GerryConnolly", "PeterWelch", "RickLarsen", "DerekKilmer", "AdamSmith", "DennyHeck", "MarkPocan",
+            "RonKind", "CarolMiller"
+          ),
+        handle =
+          c(
+            "@RepOHalleran", "@RepRaulGrijalva", "@RepRubenGallego", "@RepGregStanton",
+            "@RepGaramendi", "@RepThompson", "@RepMcNerney", "@RepJoshHarder",
+            "@RepDeSaulnier", "@RepSwalwell", "@RepJimCosta", "@RepRoKhanna",
+            "@RepJimmyPanetta", "@RepTjCox", "@RepCarbajal", "@RepAdamSchiff", "@RepCardenas",
+            "@BradSherman", "@RepPeteAguilar", "@RepTedLieu", "@RepJimmyGomez",
+            "@CongressmanRuiz", "@RepGilCisneros", "@RepMarkTakano", "@RepLouCorrea",
+            "@RepLowenthal", "@RepHarley", "@RepMikeLevin", "@Rep_Hunter", "@RepJuanVargas",
+            "@RepScottPeters", "@RepJoeNeguse", "@RepJasonCrow", "@RepPerlmutter",
+            "@RepJohnLarson", "@RepJoeCourtney", "@jahimes", "@RepAlLawsonJr", "@DarrenSoto",
+            "@RepValDemings", "@RepCharlieCrist", "@RepTedDeutch", "@SanfordBishop",
+            "@RepHankJohnson", "@repjohnlewis", "@RepLucyMcBath", "@repdavidscott",
+            "@RepEdCase", "@daveloebsack", "@RepBobbyRush", "@RepLipinski", "@RepChuyGarcia",
+            "@RepMikeQuigley", "@RepCasten", "@RepDannyDavis", "@CongressmanRaja",
+            "@RepSchneider", "@RepBillFoster", "@RepVisclosky", "@RepAndreCarlson",
+            "@RepJohnYarmuth", "@RepRichmond", "@chelliepingree", "@RepGolden",
+            "@Call_Me_Dutch", "@RepSarbanes", "@RepAnthonyBrown", "@LeaderHoyer",
+            "@RepDavidTrone", "@RepCummings", "@RepRaskin", "@RepRichardNeal",
+            "@RepMcGovern", "@RepJoeKennedy", "@teammoulton", "@RepStephenLynch",
+            "@USRepKeating", "@RepDanKildee", "@RepAndyLevin", "@repcleaver",
+            "@BennieGThompson", "@GKButterfield", "@RepDavidEPrice", "@RepChrisPappas",
+            "@DonaldNorcross", "@RepAndyKimNJ", "@RepJoshG", "@FrankPallone",
+            "@RepMalinowski", "@RepSires", "@BillPascrell", "@RepDonaldPayne", "@RepSherrill",
+            "@repbenraylujan", "@RepHorsford", "@RepTomSuozzi", "@RepGregoryMeeks",
+            "@RepGraceMeng", "@RepJeffries", "@RepJerryNadler", "@RepMaxRose", "@RepEspaillat",
+            "@RepJoseSerrano", "@RepEliotEngel", "@RepSeanMaloney", "@repdelgado",
+            "@RepPaulTonko", "@RepBrindisi", "@RepJoeMorelle", "@RepBrianHiggins",
+            "@RepTimRyan", "@repgregwalden", "@repblumenauer", "@RepPeterDeFazio",
+            "@RepSchrader", "@CongBoyle", "@RepDwightEvans", "@RepCartwright",
+            "@RepConorLamb", "@USRepMikeDoyle", "@davidcicilline", "@JimLangevin",
+            "@RepCunningham", "@WhipClyburn", "@repjimcooper", "@RepCohen", "@RepAlGreen",
+            "@RepGonzalez", "@JoaquinCastrotx", "@RepCuellar", "@RepEBJ", "@RepColinAllred",
+            "@RepVeasey", "@RepFilemonVela", "@RepLloydDoggett", "@RepBenMcAdams",
+            "@BobbyScott", "@RepMcEachin", "@RepDonBeyer", "@GerryConnolly", "@PeterWelch",
+            "@RepRickLarsen", "@RepDerekKilmer", "@RepAdamSmith", "@RepDennyHeck",
+            "@repmarkpocan", "@RepRonKind", "@RepCarolMiller"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["hormaleD"]][["last.name"]])
+      ),
+
+
+      #############
+      #### hmr ####
+      #############
+
+
+      hormaleR.116.dictionary = list(
+        last.name =
+          c(
+            "DonYoung", "Byrne", "MikeRogers", "RobertAderholt", "MoBrooks",
+            "GaryPalmer", "RickCrawford", "FrenchHill", "SteveWomack", "Westerman", "Gosar",
+            "AndyBiggs", "David", "DLesko", "LaMalfa", "McClintock", "PaulCook", "DevinNunes",
+            "McCarthy", "Calvert", "Tipton", "KenBuck", "DLamborn", "MattGaetz", "NealDunn",
+            "TedYoho", "Rutherford", "MichaelWaltz", "BillPosey", "Webster", "GusBilirakis",
+            "VernBuchanan", "GregSteube", "BrianMast", "Rooney", "MarioDB", "BuddyCarter", "DrewFerguson",
+            "RobWoodall", "AustinScott", "DougCollins", "Hice", "Laudermilk", "RickAllen", "TomGraves", "RussFulcher",
+            "MikeSimpson", "Bost", "RodneyDavis", "Shimkus", "Kinzinger", "LaHood", "JimBanks", "JimBaird",
+            "GregPence", "LarryBucshon", "Trey", "RonEstes", "Guthrie", "ThomasMassie", "HalRogers",
+            "AndyBarr", "Scalise", "ClayHiggins", "MikeJohnson", "Abraham", "GarretGraves", "AndyHarris",
+            "JackBergman", "Huizenga", "JustinAmash", "Moolenaar", "FredUpton", "Walberg", "Slotkin", "PaulMitchell",
+            "Hagedorn", "TomEmmer", "PeteStauber", "Blaine", "SamGraves", "Long", "JasonSmith", "TrentKelly",
+            "MichaelGuest", "Palazzo", "Holding", "WalterJones", "MarkWalker", "DavidRouzer", "RichHudson", "PatricMcHenry",
+            "MarkMeadows", "TedBudd", "JeffFortenberry", "DonBacon", "AdrianSmith", "JYD", "ChrisSmith", "MarkAmodei",
+            "LeeZeldin", "PeteKing", "TomReed", "JohnKatko", "ChrisCollins", "SteveChabot", "BradWenstrup", "Jim ordan",
+            "BobLatta", "BillJohnson", "BobGibbs", "WarrenDavidson", "MikeTurner", "Balderson", "DaveJoyce", "SteveStivers",
+            "AGonzalez", "KevinHern", "Mullin", "FrankLucas", "TomCole", "BrianFitz", "Meuser", "ScottPerry", "Smucker",
+            "JohnJoyce", "GReschenthaler", "GT", "MikeKelly", "JoeWilson", "JeffDuncan", "Timmons", "RalphNorman",
+            "TomRice", "DustyJohnson", "PhilRoe", "TimBurchett", "Chuck", "DesJarlais", "JohnRose", "MarkGreen", "DavidKustoff",
+            "LouisGohmert", "DanCrneshaw", "VanTaylor", "Ratcliffe", "LanceGooden", "RonWright", "KevinBrady",
+            "McCaul", "Conaway", "KayGranger", "Mac", "Randy", "BillFlores", "Arrington", "ChipRoy", "PeteOlson", "Hurd",
+            "KenMarchant", "RWilliams", "MichaelCBurgess", "Cloud", "JudgeCarter", "BrianBabin", "RobBishop", "ChrisStewart",
+            "JohnCurtis", "RobWittman", "Riggleman", "BenCline", "MGriffith", "Newhouse", "BryanSteil", "Jim", "Grothman",
+            "SeanDuffy", "Gallagher", "McKinley", "AlexMooney"
+          ),
+        handle =
+          c(
+            "@repdonyoung", "@RepByrne", "@RepMikeRogersAL", "@Robert_Aderholt",
+            "@RepMoBrooks", "@USRepGaryPalmer", "@RepRickCrawford", "@RepFrenchHill",
+            "@rep_stevewomack", "@RepWesterman", "@RepGosar", "@RepAndyBiggsAZ",
+            "@RepDavid", "@RepDLesko", "@RepLaMalfa", "@RepMcClintock", "@RepPaulCook",
+            "@RepDevinNunes", "@GOPLeader", "@KenCalvert", "@RepTipton", "@RepKenBuck",
+            "@RepDLamborn", "@RepMattGaetz", "@DrNealDunnFL2", "@RepTedYoho",
+            "@RepRutherfordFL", "@RepMichaelWaltz", "@congbillposey", "@RepWebster",
+            "@RepGusBilirakis", "@VernBuchanan", "@RepGregSteube", "@RepBrianMast",
+            "@RepRooney", "@MarioDB", "@RepBuddyCarter", "@RepDrewFerguson",
+            "@RepRobWoodall", "@AustinScottGA08", "@RepDougCollins", "@CongressmanHice",
+            "@RepLoudermilk", "@RepRickAllen", "@RepTomGraves", "@RepRussFulcher",
+            "@CongMikeSimpson", "@RepBost", "@RodneyDavis", "@RepShimkus", "@RepKinzinger",
+            "@RepLaHood", "@RepJimBanks", "@RepJimBaird", "@RepGregPence",
+            "@RepLarryBucshon", "@RepTrey", "@RepRonEstes", "@RepGuthrie", "@RepThomasMassie",
+            "@RepHalRogers", "@RepAndyBarr", "@SteveScalise", "@RepClayHiggins",
+            "@RepMikeJohnson", "@RepAbraham", "@RepGarretGraves", "@RepAndyHarrisMD",
+            "@RepJackBergman", "@RepHuizenga", "@justinamash", "@RepMoolenaar",
+            "@RepFredUpton", "@RepWalberg", "@RepSlotkin", "@RepPaulMitchell", "@RepHagedorn",
+            "@RepTomEmmer", "@RepPeteStauber", "@RepBlaine", "@RepSamGraves", "@USRepLong",
+            "@RepJasonSmith", "@RepTrentKelly", "@RepMichaelGuest", "@CongPalazzo",
+            "@RepHolding", "@RepWalterJones", "@RepMarkWalker", "@RepDavidRouzer",
+            "@RepRichHudson", "@PatrickMcHenry", "@RepMarkMeadows", "@RepTedBudd",
+            "@JeffFortenberry", "@RepDonBacon", "@RepAdrianSmith", "@CongressmanJVD",
+            "@RepChrisSmith", "@MarkAmodeiNV2", "@RepLeeZeldin", "@RepPeteKing",
+            "@RepTomReed", "@RepJohnKatko", "@RepChrisCollins", "@RepSteveChabot",
+            "@RepBradWenstrup", "@Jim_Jordan", "@boblatta", "@RepBillJohnson", "@RepBobGibbs",
+            "@WarrenDavidson", "@RepMikeTurner", "@RepBalderson", "@RepDaveJoyce",
+            "@RepSteveStivers", "@RepAGonzalez", "@repkevinhern", "@RepMullin", "@RepFrankLucas",
+            "@TomColeOK04", "@RepBrianFitz", "@RepMeuser", "@RepScottPerry", "@RepSmucker",
+            "@RepJohnJoyce", "@GReschenthaler", "@CongressmanGT", "@MikeKellyPA",
+            "@RepJoeWilson", "@RepJeffDuncan", "@reptimmons", "@RepRalphNorman",
+            "@RepTomRice", "@RepDustyJohnson", "@DrPhilRoe", "@RepTimBurchett", "@RepChuck",
+            "@RepDesJarlaisTN04", "@RepJohnRose", "@RepMarkGreen", "@RepDavidKustoff",
+            "@replouiegohmert", "@RepDanCrenshaw", "@RepVanTaylor", "@RepRatcliffe",
+            "@RepLanceGooden", "@RepRonWright", "@RepKevinBrady", "@RepMcCaul",
+            "@ConawayTX11", "@RepKayGranger", "@MacTXPress", "@TXRandy14", "@RepBillFlores",
+            "@RepArrington", "@RepChipRoy", "@RepPeteOlson", "@HurdOnTheHill",
+            "@RepKenMarchant", "@RepRWilliams", "@michaelcburgess", "@RepCloudTX",
+            "@JudgeCarter", "@RepBrianBabin", "@RepRobBishop", "@RepChrisStewart",
+            "@RepJohnCurtis", "@RobWittman", "@RepRiggleman", "@RepBenCline", "@RepMGriffith",
+            "@RepNewhouse", "@RepBryanSteil", "@JimPressOffice", "@RepGrothman",
+            "@RepSeanDuffy", "@RepGallagher", "@RepMcKinley", "@RepAlexMooney"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["hormaleR"]][["last.name"]])
+      ),
+
+
+      #############
+      #### hfd ####
+      #############
+
+
+      horfemaleD = list(
+        last.name =
+          c(
+            "TerriSewell", "Kirkpatrick", "Matsui", "Bera", "Pelosi", "Lee", "Speier", "AnnaEshoo", "ZoeLofgren", "KatieHill",
+            "Brownley", "JudyChu", "GraceNapolitano", "NormaJTorres", "KarenBass", "LindaSanchez", "RoybalAllard", "MaxineWaters",
+            "Barragan", "KatiePorter", "SusanDavis", "DianaDegette", "RosaDelauro", "JahanaHayes", "LBR", "EleanorNorton",
+            "StephMurphy", "KCastor", "Hastings", "LoisHankel", "DWS", "WIlson", "DMP", "Shalala", "Tulsi", "Rinkenauer",
+            "CindyAxne", "RobinKelly", "Janschakowsky", "Underwood", "Cheri", "Davids", "LoriTrahan", "KClark",
+            "Pressley", "HaleyStevens", "DebDingell", "Rashida", "Lawrence", "AngieCraig", "McCollum", "Ilhan",
+            "LacyClay", "Adams", "AnnieKuster", "Bonnie", "Haaland", "TorresSmall", "Dinatitus", "SusieLee",
+            "KathleenRice", "Velazquez", "YvetteClarke", "Maloney", "AOC", "NitaLowey", "Beatty", "MarcyKaptur",
+            "MarciaFudge", "KendraHorn", "Bonamici", "MGS", "Dean", "Houlahan", "SusanWild", "Fletcher", "Escobar",
+            "JacksonLee", "SylbiaGarcia", "ElaineLuria", "Spanberger", "Wexton", "DelBene", "HerreraBeutler", "Jayapal",
+            "KimSchrier", "GwenMoore"
+          ),
+        handle =
+          c(
+            "@RepTerriSewell", "@RepKirkpatrick", "@DorisMatsui", "@RepBera", "@SpeakerPelosi",
+            "@RepBarbaraLee", "@RepSpeier", "@RepAnnaEshoo", "@RepZoeLofgren", "@RepKatieHill",
+            "@RepBrownley", "@RepJudyChu", "@gracenapolitano", "@NormaJTorres",
+            "@RepKarenBass", "@RepLindaSanchez", "@RepRoybalAllard", "@RepMaxineWaters",
+            "@RepBarragan", "@RepKatiePorter", "@RepSusanDavis", "@RepDianaDeGette",
+            "@rosadelauro", "@RepJahanaHayes", "@RepLBR", "@EleanorNorton", "@RepStephMurphy",
+            "@USRepKCastor", "@RepHastingsFL", "@RepLoisHankel", "@RepDWStweets",
+            "@RepWilson", "@RepDMP", "@RepShalala", "@TulsiPress", "@RepFinkenauer",
+            "@RepCindyAxne", "@RepRobinKelly", "@janschakowsky", "@RepUnderwood", "@RepCheri",
+            "@RepDavids", "@RepLoriTrahan", "@RepKClark", "@RepPressley", "@RepHaleyStevens",
+            "@RepDebDingell", "@RepRashida", "@RepLawrence", "@RepAngieCraig",
+            "@BettyMcCollum04", "@Ilhan", "@LacyClayMO1", "@RepAdams", "@RepAnnieKuster",
+            "@RepBonnie", "@RepDebHaaland", "@RepTorresSmall", "@repdinatitus", "@RepSusieLee",
+            "@RepKathleenRice", "@NydiaVelazquez", "@RepYvetteClarke", "@RepMaloney",
+            "@RepAOC", "@NitaLowey", "@RepBeatty", "@RepMarcyKaptur", "@RepMarciaFudge",
+            "@RepKendraHorn", "@RepBonamici", "@RepMGS", "@RepDean", "@RepHoulahan",
+            "@RepSusanWild", "@RepFletcher", "@RepEscobar", "@JacksonLeeTX18",
+            "@RepSylviaGarcia", "@RepElaineLuria", "@RepSpanberger", "@RepWexton",
+            "@RepDelBene", "@HerreraBeutler", "@RepJayapal", "@RepKimSchrier", "@RepGwenMoore"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["horfemaleD"]][["last.name"]])
+      ),
+
+
+      #############
+      #### hfr ####
+      #############
+
+
+      horfemaleR = list(
+        last.name =
+          c("MarthaRoby", "Walorski", "SusanWBrooks", "AnnWagner", "Hartzler", "VirginiaFoxx", "Armstrong", "Stefanik", "CathyMcMorris", "LizCheney"),
+        handle =
+          c(
+            "@RepMarthaRoby", "@RepWalorski", "@SusanWBrooks", "@RepAnnWagner",
+            "@RepHartzler", "@virginiafoxx", "@RepArmstrongND", "@RepStefanik", "@cathymcmorris",
+            "@RepLizCheney"
+          ),
+        indexes = seq_along(timelines.session.dictionary[["session"]][["116"]][["horfemaleR"]][["last.name"]])
+      )
+    )
+  )
+)
+rm(handle, last.name)
