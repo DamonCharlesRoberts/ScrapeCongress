@@ -3,7 +3,7 @@
 ##################
 #' Takes list of twitter handles and last names for each session of congress.
 #' Runs rtweet::get_timelines to access twitter api using twitter handles specified by user.
-#' @import rtweet
+#' @importFrom rtweet get_timelines
 #' @export
 
 congressTimeline <- function(x, y, n_tweets) {
