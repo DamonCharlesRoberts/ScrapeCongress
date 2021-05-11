@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 # Setting up ScrapeCongress()
-```{r setup eval = FALSE}
+```{r setup, eval = FALSE}
 install.packages("devtools")
 devtools::install_github("damoncharlesroberts/ScrapeCongress")
 library(ScrapeCongress)
